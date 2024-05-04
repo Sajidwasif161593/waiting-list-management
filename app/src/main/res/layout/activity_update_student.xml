@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/light_blue">
+
+    <!-- Label for Student Name -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Name"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp"/>
+
+    <!-- EditText for Student Name -->
+    <EditText
+        android:id="@+id/editTextStudentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="John Doe" />
+
+    <!-- Label for Course -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="4dp"/>
+
+    <!-- EditText for Course -->
+    <EditText
+        android:id="@+id/editTextStudentCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Course" />
+
+    <!-- Label for Priority -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Priority"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="4dp"/>
+
+    <!-- EditText for Priority -->
+    <EditText
+        android:id="@+id/editTextStudentPriority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Priority" />
+
+    <!-- Button for Saving Changes -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonSaveStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Save Changes"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/regular_btn" />
+</LinearLayout>
